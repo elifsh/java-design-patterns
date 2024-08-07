@@ -6,7 +6,7 @@ public class Run {
         StaticBlockSingleton.getStaticBlockSingleton().StaticBlockSingletonTest();
         LazySingleton.getLazySingleton().lazySingletonTest();
         ThreadSafeSingleton.getThreadSafeSingleton().ThreadSafesingletonTest();
-
+        BillPughSingleton.getBillPughSingleton().BillPughSingletonTest();
 
 
     }
