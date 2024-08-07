@@ -5,6 +5,9 @@ public class Run {
         EagerInitializationSingleton.getInstance().singletonMethod();
         StaticBlockSingleton.getStaticBlockSingleton().StaticBlockSingletonTest();
         LazySingleton.getLazySingleton().lazySingletonTest();
+        ThreadSafeSingleton.getThreadSafeSingleton().ThreadSafesingletonTest();
+
+
 
     }
 }

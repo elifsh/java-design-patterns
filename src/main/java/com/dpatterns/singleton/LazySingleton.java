@@ -6,13 +6,12 @@ public class LazySingleton {
 
     }
     public static LazySingleton getLazySingleton() {
-        if (lazySingleton == null) {
+        if (lazySingleton == null)
             lazySingleton = new LazySingleton();
-        }
         return  lazySingleton;
     }
 
-    public static void lazySingletonTest(){
+    public void lazySingletonTest(){
         System.out.println("lazySingletonTest");
     }
 }
