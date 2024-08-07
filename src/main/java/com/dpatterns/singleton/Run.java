@@ -7,7 +7,5 @@ public class Run {
         LazySingleton.getLazySingleton().lazySingletonTest();
         ThreadSafeSingleton.getThreadSafeSingleton().ThreadSafesingletonTest();
         BillPughSingleton.getBillPughSingleton().BillPughSingletonTest();
-
-
     }
 }
